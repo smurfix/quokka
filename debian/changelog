@@ -1,3 +1,9 @@
+quokka (0.2.0-3) smurf; urgency=low
+
+  * Require python-mongoengine >= 0.8
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Sun, 02 Feb 2014 18:14:38 +0100
+
 quokka (0.2.0-2) smurf; urgency=low
 
   * Don't use http links in requirements.txt
