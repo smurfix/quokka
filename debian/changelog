@@ -1,3 +1,9 @@
+quokka (0.2.0-5) smurf; urgency=low
+
+  * Ship examples startup/manage scripts
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Sun, 02 Feb 2014 22:33:05 +0100
+
 quokka (0.2.0-4) smurf; urgency=low
 
   * Fixed import
