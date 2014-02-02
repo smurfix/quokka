@@ -29,9 +29,9 @@ def create_app(config=None, test=False, admin_instance=None, **settings):
     app.config.from_object(config or 'quokka.settings')
     mode = os.environ.get('MODE', 'local')
     if test:
-        mode = 'test'
+        mode = 'quokka.test'
     try:
-        app.config.from_object('quokka.%s_settings' % mode)
+        app.config.from_object('%s_settings' % mode)
     except ImportError:
         pass
 

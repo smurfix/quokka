@@ -1,3 +1,9 @@
+quokka (0.2.0-6) smurf; urgency=low
+
+  * Import local_settings from toplevel directory
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Sun, 02 Feb 2014 22:37:14 +0100
+
 quokka (0.2.0-5) smurf; urgency=low
 
   * Ship examples startup/manage scripts
