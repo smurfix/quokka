@@ -1,3 +1,9 @@
+quokka (0.2.0-4) smurf; urgency=low
+
+  * Fixed import
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Sun, 02 Feb 2014 22:09:40 +0100
+
 quokka (0.2.0-3) smurf; urgency=low
 
   * Require python-mongoengine >= 0.8

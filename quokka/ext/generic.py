@@ -2,7 +2,10 @@
 
 #from flaskext.markdown import Markdown
 from flask.ext.misaka import Misaka
-from flask_wtf.csrf import CsrfProtect
+try:
+	from flask_wtf.csrf import CsrfProtect
+except ImportError:
+	from flask_wtf.csrf import CsrfProtect
 
 
 def configure(app):
