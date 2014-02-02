@@ -1,3 +1,9 @@
+quokka (0.2.0-2) smurf; urgency=low
+
+  * Don't use http links in requirements.txt
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Sun, 02 Feb 2014 17:57:49 +0100
+
 quokka (0.2.0-1) smurf; urgency=low
 
   * source package automatically created by stdeb 0.6.0+git

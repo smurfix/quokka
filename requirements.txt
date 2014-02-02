@@ -10,14 +10,14 @@ Flask-Bcrypt
 Flask-Misaka
 Flask-Gravatar
 Flask-OAuthlib
-https://github.com/majorz/flask-htmlbuilder/tarball/master
+flask-htmlbuilder
 Flask-Login<0.2.7
 Flask-Principal
 Flask-Mail
 Flask-Testing
 Flask-Cache
-https://github.com/mrjoes/flask-admin/tarball/master
-https://github.com/mrjoes/flask-babelex/tarball/master
+flask-admin
+flask-babelex
 flask-debugtoolbar
 dealer
 flask-collect
@@ -28,5 +28,5 @@ markupsafe
 Pillow
 pyyaml
 speaklater
-https://github.com/pythonhub/quokka-themes/tarball/master
-https://github.com/pythonhub/flask-security/tarball/quokka
+quokka-themes
+flask-security
