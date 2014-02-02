@@ -1,0 +1,31 @@
+Source: quokka
+Maintainer: Bruno Rocha <rochacbruno@gmail.com> <quokka-developers@googlegroups.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: python-quokka
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Flexible & modular CMS powered by Flask and MongoDB
+ [![Flattr](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/1680610/rochacbrunoquokka-on-GitHub)
+ [![Gittip](http://badgr.co/gittip/rochacbruno.png)](https://www.gittip.com/rochacbruno/)
+ [![Travis CI](http://badgr.co/travis-ci/pythonhub%2Fquokka.png)](https://travis-ci.org/pythonhub/quokka)
+ [![Coverage
+ Status](https://coveralls.io/repos/pythonhub/quokka/badge.png)](https://coveralls.io/r/pythonhub/quokka)
+ [![Twitter](http://badgr.co/twitter/@quokkaproject.png?bg=%2302779E)](http://twitter.com/quokkaproject)
+ .
+ Quokka project
+ ===============================================
+ .
+ ### Flask and MongoDB powered CMS
+ #### (alpha version, work in progress)
+ .
+ <p align="center">
+ <img src="docs/logo.png" alt="quokka cms" />
+ </p>
+ .
+ .
+ Quokka is a flexible content management platform powered by Python, Flask and MongoDB.
+ .
