@@ -1,3 +1,9 @@
+quokka (0.2.0-7) smurf; urgency=low
+
+  * Merge namespace fix
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Mon, 03 Feb 2014 07:47:53 +0100
+
 quokka (0.2.0-6) smurf; urgency=low
 
   * Import local_settings from toplevel directory
