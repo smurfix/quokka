@@ -46,7 +46,7 @@ CACHE_TYPE = "simple"
 
 """
 Not needed by flask, but those root folders are used
-by FLask-Admin file manager
+by Flask-Admin file manager
 """
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'mediafiles')
@@ -88,7 +88,7 @@ FILE_ADMIN = [
     {
         "name": "Template files",
         "category": "Files",
-        "path": os.path.join(PROJECT_ROOT, 'templates'),
+        "path": 'templates',
         "url": "/template_files/",  # create nginx rule
         "endpoint": "template_files",
         "roles_accepted": ("admin", "editor")
