@@ -2,6 +2,7 @@
 import argparse
 
 from quokka import create_app
+from gevent.wsgi import WSGIServer
 
 parser = argparse.ArgumentParser(description="Run Quokka App")
 parser.add_argument('-p', '--port', help='App Port')
@@ -14,4 +15,8 @@ port = int(args.port) if args.port else 5000
 reloader = args.r or False
 
 app = create_app()
-app.run(use_reloader=reloader, host=host, port=port)
+if reloader:
+	app.run(use_reloader=True, host=host, port=port)
+else:
+	http_server = WSGIServer((host, port), app)
+	http_server.serve_forever()
